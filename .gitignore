@@ -1,8 +1,42 @@
-# Dependencies
-.psci_modules
-bower_components
-node_modules
+# Ignore log files on your local pc so they don't get synced with GitHub
+*.log
 
-# Generated files
-.psci
-output
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+
+
+# Mac specific stuff
+**/.DS_Store
+
+
+# Ignore the CONTENTS of the folder hidden_from_github and don't sync them to GitHub from you pc
+# But don't ignore the folder itself.
+# IE Sync the folder but not it's contents, you can put what you want in here and it won't
+# sync to GitHub
+hidden_from_github/*
+!hidden_from_github/README.md
+
+
+*.log
+
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+
+# Ignore SQLite databases on your local pc so they don't get synced with GitHub
+*.db
+
+
+# Mac specific stuff
+**/.DS_Store
+
+
+# Ignore the CONTENTS of the folder hidden_from_github and don't sync them to GitHub from you pc
+# But don't ignore the folder itself.
+# IE Sync the folder but not it's contents, you can put what you want in here and it won't
+# sync to GitHub
+hidden_from_github/*
+!hidden_from_github/README.md
